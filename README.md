@@ -1,33 +1,13 @@
 # egg-rrweb-server
 
-rrweb server
+A new web server based on egg.js, which used to record rrweb data
 
-## QuickStart
+This project has RESTful style apis, and supports JWT authorization
 
-<!-- add docs here for user -->
+Matching client-side: [https://github.com/corcd/gdy-rrweb-plugin]()
 
-see [egg docs][egg] for more detail.
+## Technical framework
 
-### Development
-
-```bash
-$ npm i
-$ npm run dev
-$ open http://localhost:7001/
-```
-
-### Deploy
-
-```bash
-$ npm start
-$ npm stop
-```
-
-### npm scripts
-
-- Use `npm run lint` to check code style.
-- Use `npm test` to run unit test.
-- Use `npm run autod` to auto detect dependencies upgrade, see [autod](https://www.npmjs.com/package/autod) for more detail.
-
-
-[egg]: https://eggjs.org
+- Node 10+
+- Egg.js 2.x
+- Mysql
